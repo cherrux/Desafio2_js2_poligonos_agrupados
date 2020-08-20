@@ -1,0 +1,20 @@
+body{
+    background-color: wheat;
+    div{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-gap: 10px;
+        grid-auto-rows:  6vw;
+            input:hover {
+                background-color: skyblue;
+
+
+        }
+        p{
+            font-family: Impact, sans-serif;
+        
+
+        }
+    }
+}
+
