@@ -1,0 +1,12 @@
+body {
+  background-color: wheat; }
+  body div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: 6vw; }
+    body div input:hover {
+      background-color: skyblue; }
+    body div p {
+      font-family: Impact, sans-serif; }
+
