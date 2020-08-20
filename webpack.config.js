@@ -14,14 +14,28 @@ module.exports = {
     },
     module: {
         rules: [
+
+            //SCSS modulo
             {   
                 test: /\.scss$/,
                 use: [ 
                     { loader : MiniCssExtractPlugin.loader}, 
                     { loader : 'css-loader'}, 
                     { loader : 'sass-loader'} 
-                ]
-            }
+                ],
+                
+            },
+            // babel Modulo
+            {
+                test: /\.m?js$/,
+                exclude: /(node_modules|bower_components)/,
+                use: {
+                  loader: 'babel-loader',
+                  options: {
+                    presets: ['@babel/preset-env']
+                  }
+                }
+              }
         ]
     },
 

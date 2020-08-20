@@ -1,4 +1,26 @@
 # Desafio2_js2_poligonos_agrupados
+
+Requerimientos
+1. Crear un flujo de trabajo completo con Babel, Webpack y Webpack Dev Server para
+ejecutar el código en la consola del navegador web. (1 Puntos)
+3. Crear todo el código usando ES6, en módulos separados, cada poligono debe ser una clase heredada de la clase padre Poligono.
+(3 Punto)
+4. Crear mecanismos para filtrar la lista de polígonos segun su identificador.
+(2 Puntos)
+5. Mantén un estilo de código (espacios, saltos de línea, indentación, etc) uniforme en
+el proyecto. (2 Puntos)
+
+
+
+
+
+
+
+
+
+
+
+
  Desafio2_js2_poligonos_agrupados desafio latam
 Desafío - Polígonos Funcionales
 ● Para realizar este desafío debes haber estudiado previamente todo el material
